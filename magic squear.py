@@ -32,7 +32,7 @@ else:
         sumc=0
         for j in range(3):
             sumr=sumr+a[i][j]
-            sumc=sumc+a[i][j]
+            sumc=sumc+a[j][i]
         if sumr!=sumd1:
             f=1
         elif sumc!=sumd1:
